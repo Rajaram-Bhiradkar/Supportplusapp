@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+/* Gradient header with padding and shadow */
+header {
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Space between header and main content */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+main {
+    padding: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Updated button with gradient and hover effect */
+.button-63 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 10px 20px -5px;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    padding: 14px 28px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-63:hover {
+    transform: translateY(-3px);
+    box-shadow: rgba(151, 65, 252, 0.4) 0 12px 24px -6px;
+}
+
+@media (min-width: 768px) {
+    .button-63 {
+        font-size: 20px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f1f1f1;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SUPPORT TONE CONVERTER</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<header>
+    <h1>SUPPORT TONE CONVERTER</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Enter Your Text</h2>
+        <form method="POST">
+            <textarea name="user_input" rows="5" placeholder="Type your message here..."></textarea>
+            <!-- Updated button with new styling class -->
+            <button type="submit" class="button-63" role="button">Convert</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Converted Text</h2>
+        <textarea rows="5" readonly>{{ converted_text }}</textarea>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+</footer>
+</body>
+</html>
